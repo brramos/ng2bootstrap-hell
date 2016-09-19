@@ -1,0 +1,44 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "wwwroot/app",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "skipDefaultLibCheck": true
+
+  },
+  "filesGlob": [
+    "Scripts/app/**/*.ts",
+    "typings/**/*.d.ts",
+    "!node_modules/**"
+  ],
+  "files": [
+    "typings/globals/core-js/index.d.ts",
+    "typings/globals/jasmine/index.d.ts",
+    "typings/globals/jquery/index.d.ts",
+    "typings/globals/node/index.d.ts",
+    "typings/index.d.ts",
+    "typings/modules/lodash/index.d.ts",
+    "Scripts/app/app.component.ts",
+    "Scripts/app/app.module.ts",
+    "Scripts/app/main.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot",
+    "Scripts/app"
+  ]
+}
